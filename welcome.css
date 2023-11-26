@@ -1,7 +1,7 @@
 .body {
     color: #fff;
-    margin: 15px;
-    margin-bottom: 0;
+    overflow-x: hidden;
+    padding: 2px;
 }
     /*Navbar section*/
 
@@ -50,6 +50,7 @@ p{
     width:fit-content;
     margin-left: 25px;
     margin-bottom: 4em;
+    margin-right: 2em;
 }
 
     /*Cards*/
@@ -75,22 +76,21 @@ p{
     height: 250px;
 }*/
 .card {
-    margin: 15px;
-    padding: 0%;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 1em;
+    padding: 2%;
     margin-bottom: 2em;
     border: solid 2px #0842c7 !important;
-    overflow: hidden;
     border-radius: 25px;
     background-color: #040210;
+    overflow: hidden;
+    width: fit-content;
 }
 .card .card-body {
-    width: 25rem;
+    width: 20rem;
     height: 20em;
 }
-.card .card-img-top {
-    width: 23rem;
+.card-img-top {
+    width: 22rem;
     height: 250px;
     border-radius: 25px;
     margin-left: 0;
@@ -99,10 +99,12 @@ p{
 }
 .card .card-img-top .card-body {
     background-color: #040210;
+    width: 22rem;
 }
 .card-text {
     color: #fff;
     margin-bottom: 25px;
+    width: 18rem;
 }
 h3 {
     color: white;
