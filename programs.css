@@ -1,10 +1,14 @@
 .body {
     color: #fff;
     overflow-x: hidden;
+	padding: 2px;
+    margin: 20px;
+    margin-top: 5px;
+    scrollbar-color: #0842c7;
 }
     /*Navbar section*/
 
-.navbar-2, .navbar {
+.navbar {
     top: 0%;
     height: 90px;
     background-color: black;
@@ -71,9 +75,9 @@ h3 {
 	margin: 2em;
 	height: 20em;
 	overflow: hidden;
-  width: fit-content;
+  	width: fit-content;
 	border: solid 2px #0842c7 !important;
-  border-radius: 25px;
+  	border-radius: 25px;
 }
 
 /*Engineering Section*/
