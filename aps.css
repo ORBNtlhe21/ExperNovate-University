@@ -1,0 +1,82 @@
+body {
+    margin: 25px;
+    color: #fff;
+    background-color: #040210;
+    font-family: cursive ;
+    font-size: 1.5rem;
+}
+.message {
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #0842c7;
+    border-radius: 25px;
+}
+.message-welcome {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2rem;
+}
+.row {
+   margin-bottom: 35px;
+}
+.label-div {
+    margin-bottom: 15px;
+}
+#label {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.select {
+    padding: 5px;
+    border: 2px solid #0842c7;
+    width: 12rem;
+    font-size: large;
+    font-family: monospace;
+    margin-right: 15px;
+}
+.subject {
+    font-size: large;
+    font-family: monospace;
+}
+.percentage1, .percentage2,.percentage3,.percentage4,.percentage5,.percentage6 {
+    padding: 5px;
+    border: 2px solid #0842c7;
+    width: 4rem;
+    font-size: large;
+    font-family: monospace;
+    text-align: center;
+}
+.submit {
+    padding: 5px;
+    border: 2px solid #0842c7;
+    width: 12em;
+    height: 3em;
+    /*margin-left: 12em;*/
+    margin-bottom: 1em;
+    font-size: large;
+    font-family: monospace;
+}
+.close {
+    padding: 5px;
+    border: 2px solid #0842c7;
+    width: 12em;
+    height: 3em;
+    /*margin-left: 12em;*/
+    margin-bottom: 1em;
+    font-size: large;
+    font-family: monospace;
+}
+a {
+    text-decoration: none;
+    color: #0842c7;
+}
+
+.footer {
+    height: 7em;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}

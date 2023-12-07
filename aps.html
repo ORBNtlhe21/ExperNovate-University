@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aps.css">
+</head>
+<body>
+	<div class="container">
+			<div class="message">
+					<h1>Calculate Your Aps</h1>
+			</div>
+	</div>
+	<div class="message-welcome">
+		<p>Your APS consists of all subjects results except your Life 
+				Orientation Marks. Please enter all the required information 
+				below.
+		</p>
+	</div>
+	<hr style="border:1px solid #0842c7; margin-bottom: 15px;">
+	<div class="row">
+		<div class="label-div">
+			<label id="label" style="margin-right: 19px;">Select Subject 1: </label>
+			<select class="select">
+				<option value="" class="subject">Select</option>
+				<option value="" class="subject">Afrikaans</option>
+				<option value="" class="subject">English</option>
+				<option value="" class="subject">Setswana</option>
+				<option value="" class="subject">Geography</option>
+				<option value="" class="subject">Life-Sciences</option>
+				<option value="" class="subject">Physical Sciences</option>
+				<option value="" class="subject">Mathematics</option>
+			</select>
+			<input type="number"  min="00" max="100" class="percentage1" placeholder="00" onkeypress="return isNumber(event)">
+		</div>
+
+		<div class="label-div">
+			<label id="label">Select Subject 2: </label>
+			<select class="select">
+				<option value="" class="subject">Select</option>
+				<option value="" class="subject">Afrikaans</option>
+				<option value="" class="subject">English</option>
+				<option value="" class="subject">Setswana</option>
+				<option value="" class="subject">Geography</option>
+				<option value="" class="subject">Life-Sciences</option>
+				<option value="" class="subject">Physical Sciences</option>
+				<option value="" class="subject">Mathematics</option>
+			</select>
+			<input type="number"  min="00" max="100" class="percentage2" placeholder="00" onkeypress="return isNumber(event)">
+		</div>
+		
+		<div class="label-div">
+			<label id="label">Select Subject 3: </label>
+			<select class="select">
+				<option value="" class="subject">Select</option>
+				<option value="" class="subject">Afrikaans</option>
+				<option value="" class="subject">English</option>
+				<option value="" class="subject">Setswana</option>
+				<option value="" class="subject">Geography</option>
+				<option value="" class="subject">Life-Sciences</option>
+				<option value="" class="subject">Physical Sciences</option>
+				<option value="" class="subject">Mathematics</option>
+			</select>
+			<input type="number"  min="00" max="100" class="percentage3" placeholder="00" onkeypress="return isNumber(event)">
+		</div>
+
+		<div class="label-div">
+			<label id="label">Select Subject 4: </label>
+			<select class="select">
+				<option value="" class="subject">Select</option>
+				<option value="" class="subject">Afrikaans</option>
+				<option value="" class="subject">English</option>
+				<option value="" class="subject">Setswana</option>
+				<option value="" class="subject">Geography</option>
+				<option value="" class="subject">Life-Sciences</option>
+				<option value="" class="subject">Physical Sciences</option>
+				<option value="" class="subject">Mathematics</option>
+			</select>
+			<input type="number"  min="00" max="100" class="percentage4" placeholder="00" onkeypress="return isNumber(event)">
+		</div>
+
+		<div class="label-div">
+			<label id="label">Select Subject 5: </label>
+			<select class="select">
+				<option value="" class="subject">Select</option>
+				<option value="" class="subject">Afrikaans</option>
+				<option value="" class="subject">English</option>
+				<option value="" class="subject">Setswana</option>
+				<option value="" class="subject">Geography</option>
+				<option value="" class="subject">Life-Sciences</option>
+				<option value="" class="subject">Physical Sciences</option>
+				<option value="" class="subject">Mathematics</option>
+			</select>
+			<input type="number"  min="00" max="100" class="percentage5" placeholder="00" onkeypress="return isNumber(event)">
+		</div>
+
+		<div class="label-div">
+			<label id="label">Select Subject 6: </label>
+			<select class="select">
+				<option value="" class="subject">Select</option>
+				<option value="" class="subject">Afrikaans</option>
+				<option value="" class="subject">English</option>
+				<option value="" class="subject">Setswana</option>
+				<option value="" class="subject">Geography</option>
+				<option value="" class="subject">Life-Sciences</option>
+				<option value="" class="subject">Physical Sciences</option>
+				<option value="" class="subject">Mathematics</option>
+			</select>
+			<input type="number"  min="00" max="100" class="percentage6" placeholder="00" onkeypress="return isNumber(event)">
+		</div>
+	</div>
+
+	<p id="display-aps"> Your APS will display here :)</p>
+	<button type="submit" class="submit">Calculate</button>
+
+	<hr style="border:1px solid #0842c7;">
+	<div class="footer container-fluid">
+		<p><i>enu@myuni.ac.za | (+27)18 258 2365</i></p>
+		<p><i>1518 Blimpark 0185</i></p>
+		<p><i>Copyright privacy</i></p>
+	</div> 
+
+	<script src="welcome.js"></script>
+</body>
+</html>
