@@ -1,15 +1,14 @@
 .body {
     color: #fff;
     overflow-x: hidden;
-	padding: 2px;
-    margin: 20px;
+	padding: 0px;
+    margin: 0px;
     margin-top: 5px;
     scrollbar-color: #0842c7;
 }
     /*Navbar section*/
 
 .navbar {
-    top: 0%;
     height: 90px;
     background-color: black;
 }

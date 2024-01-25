@@ -1,0 +1,103 @@
+.body {
+    color: #fff;
+    overflow-x: hidden;
+    padding: 2px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 2em;
+    scrollbar-color: #0842c7;
+}
+    /*Navbar section*/
+
+.navbar {
+    top: 0%;
+    height: 90px;
+    background-color: black;
+}
+.navbar-brand {
+    margin-left: 1.5em;
+    
+}
+.nav-item{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10em;
+}
+    /*Navbar Section*/
+
+/*######################################################################*/
+   
+    /*Body Section*/
+p{
+    font-size: large;
+}
+.welcome-message {
+    color: white;
+    margin-top: 6em;
+    margin-bottom: 1em;
+    text-align: center;
+    border: solid 2px #0842c7;
+    border-radius: 15px;
+    padding: 20px;
+    size: 84px;
+}
+
+.field {
+    border: 1px solid #0842c7;
+    padding: 20px;
+}
+.fset {
+    border: solid 1px #fff;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+.p-details{
+    margin: 5px;
+}
+.personal-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    margin: 15px;
+    margin-left: 8px !important;
+    height: 2.5em;  
+    width: 220px;
+    border: 1px solid #0842c7; 
+}
+.select {
+    border: 1px solid #0842c7;
+}
+.submit {
+    padding: 5px;
+    border: 2px solid #0842c7;
+    width: 9em;
+    height: 3em;
+    margin-bottom: 1em;
+    font-size: large;
+    font-family: monospace;
+}
+.center {
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.hrline{
+    color: #0842c7;
+}
+.footer {
+    height: 7em;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer p {
+    font-size: small;
+}
+.body .footer {
+    margin-left: 0;
+    margin-right: 0;
+}
